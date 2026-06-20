@@ -165,6 +165,12 @@ section {
   }
 }
 
+@media (max-width: 400px) {
+  section {
+    padding: 48px 14px;
+  }
+}
+
 /* Glass Card Style */
 .glass-card {
   background: var(--card-bg);
@@ -197,6 +203,10 @@ section {
   cursor: pointer;
   transition: all var(--transition-normal);
   text-decoration: none;
+  /* Improve touch target */
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .btn-primary {

@@ -88,7 +88,7 @@ function App() {
               <a href="https://www.linkedin.com/in/abdultajmohiddin/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <LinkedinIcon size={18} />
               </a>
-              <a href="mailto:abdultajmohiddin30503@gmail.com" aria-label="Email">
+              <a href="https://mail.google.com/mail/?view=cm&to=abdultajmohiddin30503@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                 <Mail size={18} />
               </a>
             </div>

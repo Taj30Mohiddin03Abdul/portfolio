@@ -97,7 +97,7 @@ export default function Contact() {
             </div>
             <div className="contact-method-details">
               <h4>Email</h4>
-              <a href="mailto:abdultajmohiddin30503@gmail.com" className="contact-email-link">
+              <a href="https://mail.google.com/mail/?view=cm&to=abdultajmohiddin30503@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-email-link">
                 abdultajmohiddin30503@gmail.com
               </a>
             </div>
