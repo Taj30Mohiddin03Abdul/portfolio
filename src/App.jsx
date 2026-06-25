@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
+
       <main>
         <Hero />
         <About />
@@ -61,12 +61,15 @@ function App() {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-brand">
-            <div className="footer-logo">TMA</div>
+            <div className="footer-logo">
+              <img className="footer-logo-img" src="/logo.png" alt="TMA Logo" />
+              <span className="footer-logo-text">TMA</span>
+            </div>
             <p className="footer-tagline">
               Software Engineer specializing in AI Agents, Workflow Automation, and SaaS Applications.
             </p>
           </div>
-          
+
           <div className="footer-nav">
             <h4>Navigate</h4>
             <ul>
@@ -94,7 +97,7 @@ function App() {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
           <div className="footer-status-badge">
             <span className="status-dot"></span> Available for SaaS & AI Agent Collaborations

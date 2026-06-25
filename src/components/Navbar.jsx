@@ -60,7 +60,8 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#home" className="navbar-logo" onClick={(e) => { e.preventDefault(); handleLinkClick('home'); }}>
-          Taj Mohiddin Abdul
+          <img className="navbar-logo-img" src="/logo.png" alt="Taj Mohiddin Abdul Logo" />
+          <span className="navbar-logo-text">Taj Mohiddin Abdul</span>
         </a>
 
         <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
