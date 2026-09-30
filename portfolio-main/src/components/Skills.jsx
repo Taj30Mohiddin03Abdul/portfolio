@@ -27,6 +27,8 @@ export default function Skills() {
       skills: [
         { name: 'Git & GitHub', level: 'Advanced', icon: <GitBranch size={22} /> },
         { name: 'Supabase', level: 'Intermediate', icon: <Database size={22} /> },
+        { name: 'Retool', level: 'Advanced', icon: <Layers size={22} /> },
+        { name: 'Lovable', level: 'Advanced', icon: <Bot size={22} /> },
         { name: 'API Integrations', level: 'Advanced', icon: <Layers size={22} /> },
         { name: 'Cloud Deployments', level: 'Intermediate', icon: <Globe size={22} /> },
       ],

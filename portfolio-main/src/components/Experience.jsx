@@ -9,12 +9,12 @@ export default function Experience() {
       duration: 'Dec 2025 - Present',
       location: 'Hyderabad, Telangana, India',
       highlights: [
-        'Engineering intelligent AI Agents and bot solutions to automate business workflows and enhance enterprise efficiency.',
+        'Engineering intelligent AI Agents and bot solutions to automate complex business workflows and enhance enterprise efficiency.',
         'Developing robust, high-performance backends and microservices using Python, FastAPI, and Django.',
-        'Building responsive, modern user interfaces with React.js for seamless SaaS application user experiences.',
-        'Integrating ServiceNow workflows (CSA & CAD certified) with custom enterprise SaaS platforms.',
+        'Building automated workflows with n8n and scalable backend data pipelines using Supabase.',
+        'Designing interactive internal tools and rapid AI prototypes using Retool, Lovable, and React.js.',
       ],
-      skills: ['Python', 'FastAPI', 'Django', 'AI Agents', 'React.js', 'ServiceNow', 'SaaS Architecture'],
+      skills: ['Python', 'FastAPI', 'Django', 'AI Agents', 'n8n Automation', 'Retool', 'Lovable', 'Supabase', 'React.js'],
     },
   ];
 

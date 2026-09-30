@@ -1,20 +1,18 @@
-import { ShieldCheck, Award } from 'lucide-react';
+import { Award, ShieldCheck } from 'lucide-react';
 
 export default function Certifications() {
   const certifications = [
     {
-      title: 'ServiceNow Certified System Administrator (CSA)',
-      issuer: 'ServiceNow',
-      date: 'Issued: Dec 2024',
+      title: 'RPA Essentials',
+      issuer: 'Robotic Process Automation',
+      date: 'Certified',
       badge: <Award size={36} />,
-      verifyUrl: 'https://nowlearning.servicenow.com/',
     },
     {
-      title: 'ServiceNow Certified Application Developer (CAD)',
-      issuer: 'ServiceNow',
-      date: 'Issued: Feb 2025',
+      title: 'Microsoft Azure AZ-900',
+      issuer: 'Microsoft Azure Fundamentals',
+      date: 'Certified',
       badge: <ShieldCheck size={36} />,
-      verifyUrl: 'https://nowlearning.servicenow.com/',
     },
   ];
 
@@ -34,14 +32,6 @@ export default function Certifications() {
               <span className="cert-issuer">{cert.issuer}</span>
               <h3 className="cert-title">{cert.title}</h3>
               <div className="cert-date">{cert.date}</div>
-              <a
-                href={cert.verifyUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-secondary cert-verify-btn"
-              >
-                Verify Credential
-              </a>
             </div>
           </div>
         ))}
