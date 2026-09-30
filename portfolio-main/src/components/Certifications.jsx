@@ -1,18 +1,30 @@
-import { Award, ShieldCheck } from 'lucide-react';
+import { Award, ShieldCheck, Cpu, Cloud } from 'lucide-react';
 
 export default function Certifications() {
   const certifications = [
     {
+      title: 'ServiceNow Certified System Administrator (CSA)',
+      issuer: 'ServiceNow',
+      date: 'Issued: Dec 2024',
+      badge: <Award size={36} />,
+    },
+    {
+      title: 'ServiceNow Certified Application Developer (CAD)',
+      issuer: 'ServiceNow',
+      date: 'Issued: Feb 2025',
+      badge: <ShieldCheck size={36} />,
+    },
+    {
       title: 'RPA Essentials',
       issuer: 'Robotic Process Automation',
       date: 'Certified',
-      badge: <Award size={36} />,
+      badge: <Cpu size={36} />,
     },
     {
       title: 'Microsoft Azure AZ-900',
       issuer: 'Microsoft Azure Fundamentals',
       date: 'Certified',
-      badge: <ShieldCheck size={36} />,
+      badge: <Cloud size={36} />,
     },
   ];
 

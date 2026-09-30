@@ -9,12 +9,12 @@ export default function Experience() {
       duration: 'Dec 2025 - Present',
       location: 'Hyderabad, Telangana, India',
       highlights: [
-        'Engineering intelligent AI Agents and bot solutions to automate complex business workflows and enhance enterprise efficiency.',
+        'Engineering intelligent AI Agents, bots, and conversational voice solutions using Retell AI to automate business operations.',
         'Developing robust, high-performance backends and microservices using Python, FastAPI, and Django.',
         'Building automated workflows with n8n and scalable backend data pipelines using Supabase.',
-        'Designing interactive internal tools and rapid AI prototypes using Retool, Lovable, and React.js.',
+        'Designing interactive applications and rapid AI prototypes using Lovable and React.js.',
       ],
-      skills: ['Python', 'FastAPI', 'Django', 'AI Agents', 'n8n Automation', 'Retool', 'Lovable', 'Supabase', 'React.js'],
+      skills: ['Python', 'FastAPI', 'Django', 'AI Agents', 'n8n Automation', 'Retell AI', 'Lovable', 'Supabase', 'React.js'],
     },
   ];
 

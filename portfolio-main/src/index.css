@@ -67,9 +67,10 @@
   --pulse-glow-end: rgba(255, 28, 117, 0.35);
 }
 
-/* Smooth Scrolling */
+/* Smooth & Stylish Scrolling */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
   box-sizing: border-box;
 }
 
@@ -90,20 +91,30 @@ body {
   overflow-x: hidden;
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 10px;
+/* Firefox scrollbar support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) var(--bg-primary);
 }
+
+/* Chrome, Edge & Safari Custom Gradient Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
 ::-webkit-scrollbar-track {
   background: var(--bg-primary);
 }
+
 ::-webkit-scrollbar-thumb {
-  background: var(--bg-tertiary);
-  border-radius: 5px;
-  border: 2px solid var(--bg-primary);
+  background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 999px;
+  box-shadow: 0 0 10px var(--accent-glow);
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+  background: linear-gradient(180deg, var(--accent-primary-hover), var(--accent-secondary-hover));
+  box-shadow: 0 0 14px var(--accent-border-glow);
 }
 
 /* Containers */
